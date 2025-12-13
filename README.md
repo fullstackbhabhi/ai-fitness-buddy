@@ -1,5 +1,4 @@
 # 🧘‍♀️ AI Fitness Buddy: The "Interview Cracker" Project 🍱
-[Live Demo](https://agent-69341f7cd2d0bb7--splendid-bubblegum-294a43.netlify.app/)
 
 > *"Sunn meri jaan! Resume mein bas projects mat bhar... kahani likh! Aisi kahani jo recruiter ko impress kare, bore nahi"* — **FullstackBhabhi**
 
