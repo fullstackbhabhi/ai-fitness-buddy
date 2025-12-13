@@ -32,7 +32,7 @@ export const analyzeFoodImage = async (imageFile, apiKey) => {
   if (!apiKey) throw new Error("API Key is missing!");
 
   const genAI = new GoogleGenerativeAI(apiKey);
-  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
   const prompt = `
     Analyze this food image and return a response in the following JSON format:
@@ -67,7 +67,7 @@ export const generateDietPlan = async (userDetails, apiKey) => {
   if (!apiKey) throw new Error("API Key is missing!");
 
   const genAI = new GoogleGenerativeAI(apiKey);
-  const model = genAI.getGenerativeModel({ model: "gemini-2.0-flash" });
+  const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
   const { gender, weight, goal, dietType, budget, duration } = userDetails;
 
